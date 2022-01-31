@@ -6,7 +6,6 @@ const port = process.env.PORT || 3000;
 
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
-// Middleware
 app.set('view engine','ejs');
 
 app.get('/',(req,res)=>{
